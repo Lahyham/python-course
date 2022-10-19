@@ -1,0 +1,5 @@
+print("""=======================This quest is to find the volume of a cone=================""")
+constant = float(input("Please input the constant for pie"))
+coneRad = int(input("What is the radius of the cone?"))
+coneHei = int(input("Please input the height of the cone"))
+print(constant * coneRad**2 * coneHei/3)
